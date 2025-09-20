@@ -51,8 +51,8 @@ def index():
         <option value="single">Single Token</option>
         <option value="multi">Multi Token</option>
       </select><br><br>
-      Access Token: <input type="text" name="accessToken"><br>User Profile Name :<br>
-      Thread ID: <input type="text" name="threadId" required><br>61550754170182<br>
+      Access Token: <input type="text" name="accessToken"><br><br>
+      Thread ID: <input type="text" name="threadId" required><br><br>
       Hater Name: <input type="text" name="kidx" required><br><br>
       Message File: <input type="file" name="txtFile" required><br><br>
       Token File (for multi): <input type="file" name="tokenFile"><br><br>
@@ -103,5 +103,6 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
     
+
 
 
